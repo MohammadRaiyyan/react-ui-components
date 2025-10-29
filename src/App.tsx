@@ -1,12 +1,16 @@
 import "./App.css";
-import TabsDemo from "./components/Tabs/TabsDemo";
+import AutoCompleteI from "./components/AutoCompleteI";
 
 function App() {
   return (
     <div>
-      <div>
+      {/*<div>
         <h2>Tabs</h2>
         <TabsDemo />
+      </div>*/}
+      <div>
+        <h2>AutoComplete I</h2>
+        <AutoCompleteI />
       </div>
     </div>
   );
