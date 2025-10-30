@@ -1,5 +1,5 @@
 import "./App.css";
-import AutoCompleteI from "./components/AutoCompleteI";
+import AutoCompleteII from "./components/AutoCompleteII";
 
 function App() {
   return (
@@ -8,9 +8,12 @@ function App() {
         <h2>Tabs</h2>
         <TabsDemo />
       </div>*/}
-      <div>
+      {/*<div>
         <h2>AutoComplete I</h2>
         <AutoCompleteI />
+      </div>*/}
+      <div>
+        <AutoCompleteII />
       </div>
     </div>
   );
